@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F7F7FF;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.form-label{
+  font-weight: bold;
+}
+.form-control{
+  background: rgb(255, 255, 255);
+  border: 1px solid  #6692FF
+  ;
+  border-radius: 8px;
+  padding: 10px 30px;
+  width: 500px;
+}
+.container1{
+  background: rgb(255, 255, 255);
+  color: #000;
+  
+  border: 2px solid  #6692FF;
+  border-radius: 12px;
+  padding: 5px;
+  max-width: 12cm;
+}
+.container3{
+  background: rgb(255, 255, 255);
+  color: #000;
+  border: 2px solid  #6692FF;
+  border-radius: 12px;
+  padding: 80px 90px;
+  max-width: 16cm;
+}
+.form-group1{
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 10px 130px;
+  color:  #303666;
+}
+.form-group2{
+  font-size: 10pt;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+
+.img1{
+  width: 700px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .img2{
+    width: 600px;
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .img3{
+      width: 500px;
+      height: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      .logo{
+        width: 200px;
+        height: 90px;
+        padding: 10px;
+        }
+  .btn1{
+    background: rgb(48,54,102);
+background: linear-gradient(90deg, rgba(48,54,102,1) 0%, rgba(62,68,118,1) 35%);
+    color: #ffffff;
+    padding: 10px 100px;
+    border: 2px solid  #6692FF;
+  border-radius: 12px;
+  position:relative;
+  left: 100px;
+  top: 30px;
+  }
+  .btn{
+    background:  #3E4476;
+    color: #ffffff;
+    padding: 4px 40px;
+    border: 2px solid  #6692FF;
+  border-radius: 12px;
+  font-size: small;
+ 
+  
+  }
+
+  .btn5{
+    background:  #3E4476;
+    color: #ffffff;
+    padding: 17px 40px;
+    border: 2px solid  #6692FF;
+  border-radius: 12px;
+  font-size: small;
+ 
+  
+  }
+  .container2{
+    height: 700px;
+  }
+  .col{
+    padding: 50px;
+  }
+  .col1{
+    background:  #ffffff    ;
+    width: 530px;
+    height: 670px;
+    border-radius: 12px;
+  }
+  .col2{
+    background: red;
+    width: 600px;
+    height: 100px;
+    border-radius: 12px;
+  }
+  .heading{
+    padding: 5px 80px;
+  }
+  .heading1{
+    padding: 5px 50px;
+  }
+  .title {
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+  }
+  .navbar{
+background: #303666;
+height: 100px;
+  }
+  .p1{
+    padding: 10px 410px;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  .ht{
+    font-family: cursive;
+    padding: 10px 335px;
+    font-weight: bold;
+  }
+
+
+  .inputfile {
+    border: 1px  #303666;    ;
+    margin-right: 12px;
+    background: rgb(255, 255, 255);
+  border: 1px solid  #6692FF;
+  border-radius: 8px;
+  padding: 10px 30px;
+  width: 400px;
+  }
+
+  .dropbtn {
+    background-color:  #3E4476;
+    color: white;
+    padding: 19px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  #6692FF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: #000;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .nav-link1{
+    font-size: x-small;
+    padding-left: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .dropdown-content a:hover {background-color:  #303666 ; color: #ffffff;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:  #636894;}
